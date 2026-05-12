@@ -4,10 +4,17 @@
 // Edite as informações abaixo conforme sua hospedagem
 // =============================================
 
+//BD_DEV
+//define('DB_HOST', 'localhost');
+//define('DB_USER', 'root');      // ← Altere aqui
+//define('DB_PASS', '');        // ← Altere aqui
+//define('DB_NAME', 'financas');         // ← Altere aqui (nome do banco)
+
+//BD PROD
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');      // ← Altere aqui
-define('DB_PASS', '');        // ← Altere aqui
-define('DB_NAME', 'financas');         // ← Altere aqui (nome do banco)
+define('DB_USER', 'u454088166_fernando');      // ← Altere aqui
+define('DB_PASS', 'F@lxmen007');        // ← Altere aqui
+define('DB_NAME', 'u454088166_finance');         // ← Altere aqui (nome do banco)
 
 define('APP_NAME', 'NogFinance');
 define('APP_VERSION', '1.0');
